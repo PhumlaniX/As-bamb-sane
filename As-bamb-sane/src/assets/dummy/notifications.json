@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "type" : "WC",
+    "title" : "Drving Mode Activated",
+    "description" : "Location Enabled.",
+    "time" : 1566112537749
+  },
+  {
+    "id": 2,
+    "type" : "COMMENT",
+    "title" : "Driving",
+    "description" : "Ensure that you have your seatbelt on.",
+    "time" : 1566112697934
+  }
+]

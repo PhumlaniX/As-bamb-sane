@@ -1,0 +1,7 @@
+{
+  "name": "quick-sight",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

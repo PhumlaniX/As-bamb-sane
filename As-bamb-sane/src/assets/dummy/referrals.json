@@ -1,0 +1,41 @@
+[{
+  "id": 1,
+  "dtCreate": 1559278800000,
+  "lastModified": 1566293400000,
+  "referralMsg": "Please call on 010 002 9786 in case of an emergency",
+  "patient": 1,
+  "doctor": 2,
+  "referredBy": 1,
+  "state": 2,
+  "responseMsg": "Thanks"
+}, {
+  "id": 2,
+  "dtCreate": 1567083600000,
+  "lastModified": 1567069200000,
+  "referralMsg": "Please call 072 669 8505 in case of an emergency",
+  "patient": 3,
+  "doctor": 2,
+  "referredBy": 7,
+  "state": 3,
+  "responseMsg": "Thanks"
+}, {
+  "id": 3,
+  "dtCreate": 1566293400000,
+  "lastModified": null,
+  "referralMsg": "Please call on 011 555 6666 in case of an emergency",
+  "patient": 2,
+  "doctor": 2,
+  "referredBy": 4,
+  "state": 1,
+  "responseMsg": "Thanks"
+}, {
+  "id": 4,
+  "dtCreate": 1567069200000,
+  "lastModified": null,
+  "referralMsg": "Please call 079 558 8505 in case of an emergency",
+  "patient": 5,
+  "doctor": 2,
+  "referredBy": 6,
+  "state": 1,
+  "responseMsg": "Thanks"
+}]

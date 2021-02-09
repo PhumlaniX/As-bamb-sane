@@ -1,0 +1,50 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Book Ambulance</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="container">
+    <div class="input-row">
+    <mat-form-field appearance="outline" class="d-block">
+      <mat-label class="cff">Cell Phone</mat-label>
+      <input matInput placeholder="Enter your email" spellcheck="false" type="email"
+        class="cff" autocomplete="off">
+      <!-- <mat-error *ngIf="loginForm.controls['userId'].errors">{{getErrorMessage('id')}}</mat-error> -->
+    </mat-form-field>
+    </div>
+    <div class="input-row">
+      <mat-form-field appearance="outline" class="d-block">
+        <mat-label class="cff">First Name</mat-label>
+        <input matInput placeholder="Enter your email" spellcheck="false" type="email"
+          class="cff" autocomplete="off">
+        <!-- <mat-error *ngIf="loginForm.controls['userId'].errors">{{getErrorMessage('id')}}</mat-error> -->
+      </mat-form-field>
+      </div>
+      <div class="input-row">
+        <mat-form-field appearance="outline" class="d-block">
+          <mat-label class="cff">Last Name</mat-label>
+          <input matInput placeholder="Enter your email" spellcheck="false" type="email"
+            class="cff" autocomplete="off">
+          <!-- <mat-error *ngIf="loginForm.controls['userId'].errors">{{getErrorMessage('id')}}</mat-error> -->
+        </mat-form-field>
+        </div>
+        <div class="input-row">
+          <mat-form-field appearance="outline" class="d-block">
+            <mat-label class="cff">Location</mat-label>
+            <input matInput placeholder="Enter your email" spellcheck="false" type="email"
+              class="cff" autocomplete="off">
+            <!-- <mat-error *ngIf="loginForm.controls['userId'].errors">{{getErrorMessage('id')}}</mat-error> -->
+          </mat-form-field>
+        </div>
+
+        <div class="input-row">
+          <button class="btn__signin loading-btn" type="submit">Send Request</button>
+        </div>
+  </div>
+</ion-content>
+<ion-footer class="flat">
+  <footer-tabs></footer-tabs>
+</ion-footer>
